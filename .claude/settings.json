@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(ls *)",
+      "PowerShell(dir *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-Location)",
+      "PowerShell(Resolve-Path *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(tree *)",
+      "Read(//c/Users/flo/VSProjects/Coww/Antenna/**)",
+      "PowerShell(& \"$env:USERPROFILE\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" run -d \"C:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\Antenna\\\\Receiver433\")",
+      "PowerShell(& \"$env:USERPROFILE\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" run -d \"C:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\Antenna\\\\Receiver433\" 2>&1 | Select-Object -Last 12; \"=== TRANSMITTER ===\"; & \"$env:USERPROFILE\\\\.platformio\\\\penv\\\\Scripts\\\\pio.exe\" run -d \"C:\\\\Users\\\\flo\\\\VSProjects\\\\Coww\\\\Antenna\\\\Transmitter433wBno\" 2>&1 | Select-Object -Last 12)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\flo\\VSProjects\\Coww\\Antenna"
+    ]
+  }
+}
