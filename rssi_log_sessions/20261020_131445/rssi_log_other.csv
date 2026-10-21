@@ -1,0 +1,5 @@
+timestamp,line
+2026-10-20T13:14:45,# 433 MHz RSSI-test receiver
+2026-10-20T13:14:45,"# board 4: board_id,packet_count,battery_voltage,rssi,snr,rssi_datasheet,noise_floor"
+2026-10-20T13:14:45,"# board 5: board 4 fields + temperature_c,humidity_pct"
+2026-10-20T13:14:45,"# type START to wake the transmitters, STOP to put them back to sleep"
